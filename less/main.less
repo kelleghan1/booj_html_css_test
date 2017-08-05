@@ -51,6 +51,22 @@ footer:extend(.container-fluid all) {
       color: #fff;
     }
   }
+  .footer-logos-left {
+    display: flex;
+    justify-content: space-between;
+    path, rect, circle, polygon {
+      fill: #fff;
+    }
+    #home-logo {
+      fill: none!important;
+    }
+    svg {
+      margin-right: 10px;
+    }
+    svg:nth-last-of-type(1) {
+      margin-right: 0;
+    }
+  }
   .footer-logos {
     path, rect, circle, polygon {
       fill: #fff;
@@ -208,7 +224,7 @@ input {
 
 #profile {
   background-color: #EBEBEB;
-  
+
 }
 
 
